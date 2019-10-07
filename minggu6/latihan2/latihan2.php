@@ -1,9 +1,39 @@
 <?php
-$a = 3;
-$b = 7
-$a += 5; // $a = $a + 5;
-$b = ($c = 11) + 3; 
-echo "Nilai variabel a adalah = $a<br />";
-echo "Nilai variabel b adalah = $b<br />";
-echo "Nilai variabel c adalah = $c<br />";
+//Kalkulator Latihan 2
+$a = 15;
+$b = 5;
+
+echo "bilangan 1 = $a"; echo"<br>";
+echo "bilangan 2 = $b"; echo"<br>";
+echo "Berikut hasil perhitungan dari setiap operator"; echo "<br/>";
+
+	echo "<br/> PENJUMLAHAN";
+	$c = $a + $b;
+	echo "<br/>";
+	echo "operator = +"; echo "<br>";
+	echo "hasilnya : $a + $b = $c";
+	echo "<br/>";
+	echo "<br/> PENGURANGAN";
+	$d = $a - $b;
+	echo "<br/>";
+	echo "operator = -"; echo "<br>";
+	echo "hasilnya : $a - $b = $d";
+	echo "<br/>";
+	echo "<br/> PERKALIAN";
+	$e = $a * $b;
+	echo "<br/>";
+	echo "operator = *"; echo "<br>";
+	echo "hasilnya : $a * $b = $e";
+	echo "<br/>";
+	echo "<br/> PEMBAGIAN";
+	$f = $a / $b;
+	echo "<br/>";
+	echo "operator = /"; echo "<br>";
+	echo "hasilnya : $a / $b = $f";
+	echo "<br/>";
+	echo "<br/> PENJUMLAHAN";
+	$g = $a % $b;
+	echo "operator = %"; echo "<br>";
+	echo "hasilnya : $a + $b = $g";
+	echo "<br/>";
 ?>
